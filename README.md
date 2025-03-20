@@ -1,4 +1,4 @@
-![solvecaptcha-python](https://github.com/user-attachments/assets/b3526dc7-a0aa-4f07-a4f7-51e0ad742941)
+![solvecaptcha-python](https://github.com/user-attachments/assets/5270c365-83fd-4b37-9ff1-ff554e75442e)
 
 <a href="https://github.com/solvecaptcha-com/solvecaptcha-python"><img src="https://github.com/user-attachments/assets/a737d428-5233-4605-9d09-211fa213d069" width="82" height="30"></a>
 <a href="https://github.com/solvecaptcha-com/solvecaptcha-javascript"><img src="https://github.com/user-attachments/assets/4d3b4541-34b2-4ed2-a687-d694ce67e5a6" width="36" height="30"></a>
