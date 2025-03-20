@@ -164,7 +164,7 @@ This method offers a reCAPTCHA V3 solver and returns a token.
 
 ```python
 result = solver.recaptcha(sitekey='6Le-wvkSVVABCPBMRTvw0Q4Muexq1bi0DJwx_mJ-',
-                            url='https://mysite.com/page/with/recaptcha',
+                            url='https://mysite.com/page/with/recaptcha-v3',
                             version='v3',
                             param1=..., ...)
 ```
