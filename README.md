@@ -52,7 +52,11 @@ This package can be installed using Pip:
 ```bash
 pip3 install solvecaptcha-python
 ```
+or You can install this package directly from GitHub using `pip`:  
 
+```sh
+pip install git+https://github.com/solvercaptcha/solvecaptcha-python.git
+```
 ## Configuration
 
 An instance of `Solvecaptcha` can be created as follows:
