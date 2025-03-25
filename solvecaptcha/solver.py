@@ -36,7 +36,7 @@ class TimeoutException(SolverExceptions):
 class Solvecaptcha():
     def __init__(self,
                  apiKey,
-                 softId=1000001,
+                 softId=4844,
                  callback=None,
                  defaultTimeout=120,
                  recaptchaTimeout=600,
