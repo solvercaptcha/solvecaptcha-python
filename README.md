@@ -14,6 +14,39 @@
 A simple and efficient method to integrate the [Solvecaptcha] captcha-solving service into your code, enabling the automation of solving various types of captchas.
 Examples of API requests for different captcha types can be found on the [Python captcha solver](https://solvecaptcha.com/captcha-solver/python-captcha-solver-bypass) page.
 
+## ✅ Supported captcha solvers
+To get started quickly, check out the [Captcha Solver API](https://solvecaptcha.com/captcha-solver-api) documentation.
+
+### Helpful links:
+- [reCAPTCHA v2 solver (Python + Selenium)](https://solvecaptcha.com/captcha-solver/recaptcha-v2-solver-bypass)
+- [reCAPTCHA v3 solver](https://solvecaptcha.com/captcha-solver/recaptcha-v3-solver-bypass)
+- [hCaptcha solver (Playwright-ready)](https://solvecaptcha.com/captcha-solver/hcaptcha-solver-bypass)
+- [Text & Image captcha solver (Base64 / file input)]()
+- [Cloudflare captcha / Turnstile solver](https://solvecaptcha.com/captcha-solver/cloudflare-captcha-solver-bypass)
+- [Amazon captcha (WAF & login forms)](https://solvecaptcha.com/captcha-solver/amazon-captcha-solver-bypass)
+- [GeeTest slider solver](https://solvecaptcha.com/captcha-solver/slider-captcha-solver-bypass)
+- [FunCaptcha (Arkose Labs)](https://solvecaptcha.com/captcha-solver/funcaptcha-solver-bypass)
+- [Other custom captcha types](https://solvecaptcha.com/)
+
+## 🛠️ Features
+- Fast and fully automated captcha bypass
+- Works in **Python** environments
+- Compatible with **Selenium**, **Playwright**, and other browser automation tools
+- Lightweight SDK with modern **async/await** support
+- Pay only for successful solves
+- 99.9% uptime
+- 24/7 support for developers and integration teams
+
+## 📦 Use cases
+
+- Web scraping behind reCAPTCHA or Cloudflare walls
+- Automated form submission and login flows
+- QA pipelines and headless browser testing
+- Bypassing captchas in research or bot-detection evaluation
+- Custom browser automations using Python
+
+Need help integrating with your Python app or automation tools? [Open an issue](https://github.com/solvercaptcha/solvecaptcha-python/issues) or fork this repo to contribute.
+
 - [Python Library for Interacting with the Solvecaptcha API](#python-library-for-interacting-with-the-solvecaptcha-api-captcha-solving-service)
   - [Installation](#installation)
   - [Configuration](#configuration)
