@@ -74,7 +74,7 @@ Need help integrating with your Python app or automation tools? [Open an issue](
   - [Proxies](#proxies)
   - [Async calls](#async-calls)
   - [Examples](#examples)
-  <!-- - [Examples using Selenium](#examples-using-selenium) -->
+  - [Examples using Selenium](#examples-using-selenium)
   - [Useful articles](#useful-articles)
   - [Get in touch](#get-in-touch)
   - [License](#license)
@@ -439,9 +439,10 @@ captcha_result = asyncio.run(captchaSolver(image))
 
 Examples of solving all supported captcha types can be found in the [examples] directory.
 
-<!-- ## Examples using Selenium
+## Examples using Selenium
 
-We also have a [separate repository](https://github.com/solvercaptcha/captcha-solver-selenium-python-examples) where you can find examples of captcha solving using the [Selenium](https://pypi.org/project/selenium/) library. -->
+We also have a separate repository where you can find examples of captcha solving using the [Selenium](https://pypi.org/project/selenium/) \ [seleniumbase](https://seleniumbase.io/) library. 
+- [Python hCaptcha Solver: Bypass hCaptcha with Proxy using Selenium and SolveCaptcha SDK](https://github.com/solvercaptcha/hcaptcha-solver-seleniumbase-python)
 
 ## Useful articles
 
