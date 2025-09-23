@@ -35,7 +35,6 @@ setup(name='solvecaptcha-python',
       keywords=[
           'solvecaptcha', 'captcha', 'api', 'captcha solver', 'reCAPTCHA',
           'FunCaptcha', 'Geetest', 'image captcha', 'Coordinates', 'Click Captcha',
-          'Geetest V4', 'Lemin captcha', 'Amazon WAF', 'Cloudflare Turnstile',
-          'hcaptcha'],
+          'Geetest V4', 'Lemin captcha', 'Amazon WAF', 'Cloudflare Turnstile'],
       python_requires='>=3.6',
       test_suite='tests')

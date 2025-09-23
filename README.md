@@ -20,7 +20,6 @@ To get started quickly, check out the [Captcha Solver API](https://solvecaptcha.
 ### Helpful links:
 - [reCAPTCHA v2 solver (Python + Selenium)](https://solvecaptcha.com/captcha-solver/recaptcha-v2-solver-bypass)
 - [reCAPTCHA v3 solver](https://solvecaptcha.com/captcha-solver/recaptcha-v3-solver-bypass)
-- [hCaptcha solver (Playwright-ready)](https://solvecaptcha.com/captcha-solver/hcaptcha-solver-bypass)
 - [Text & Image captcha solver (Base64 / file input)]()
 - [Cloudflare captcha / Turnstile solver](https://solvecaptcha.com/captcha-solver/cloudflare-captcha-solver-bypass)
 - [Amazon captcha (WAF & login forms)](https://solvecaptcha.com/captcha-solver/amazon-captcha-solver-bypass)
@@ -57,7 +56,6 @@ Need help integrating with your Python app or automation tools? [Open an issue](
     - [Text Captcha](#text-captcha)
     - [reCAPTCHA v2](#recaptcha-v2)
     - [reCAPTCHA v3](#recaptcha-v3)
-    - [hCaptcha](#hcaptcha)
     - [FunCaptcha](#funcaptcha)
     - [GeeTest](#geetest)
     - [GeeTest v4](#geetest-v4)
@@ -205,24 +203,6 @@ result = solver.recaptcha(sitekey='6Le-wvkSVVABCPBMRTvw0Q4Muexq1bi0DJwx_mJ-',
                             url='https://mysite.com/page/with/recaptcha-v3',
                             version='v3',
                             param1=..., ...)
-```
-
-### hCaptcha
-
-<sup>[API method description.](https://solvecaptcha.com/captcha-solver-api#solving_hcaptcha)</sup>
-
-Use the following method to solve hCaptcha and retrieve a token for bypassing the protection.
-
-```python
-result = solver.hcaptcha(sitekey='bf8ccfbf-6a05-45f6-982a-7a7964c2f50c',
-                         url='https://portalunico.siscomex.gov.br',
-                         invisible=0,
-                         domain='hcaptcha.com',
-                         # proxy={
-                         #     'type': 'HTTPS',
-                         #     'uri': 'login:password@IP_address:PORT'
-                         # }
-                         )
 ```
 
 ### FunCaptcha
@@ -401,7 +381,7 @@ except TimeoutException as e:
 
 ## Proxies
 
-You can provide your proxy as an additional argument for the following methods: reCAPTCHA, FunCaptcha, GeeTest, GeeTest v4, KeyCaptcha, hCaptcha, Turnstile, Amazon WAF, and other captchas.  
+You can provide your proxy as an additional argument for the following methods: reCAPTCHA, FunCaptcha, GeeTest, GeeTest v4, KeyCaptcha, Turnstile, Amazon WAF, and other captchas.  
 
 The proxy will be passed to the API to facilitate captcha solving.  
 
@@ -442,12 +422,11 @@ Examples of solving all supported captcha types can be found in the [examples] d
 ## Examples using Selenium
 
 We also have a separate repository where you can find examples of captcha solving using the [Selenium](https://pypi.org/project/selenium/) \ [seleniumbase](https://seleniumbase.io/) library. 
-- [Python hCaptcha Solver: Bypass hCaptcha with Proxy using Selenium and SolveCaptcha SDK](https://github.com/solvercaptcha/hcaptcha-solver-seleniumbase-python)
 
 ## Useful articles
 
-- [Solve and bypass Google reCAPTCHA, hCaptcha, Image CAPTCHA,  Cloudflare Challenge and any captcha in Selenium with captcha solver.](https://solvecaptcha.com/captcha-solver/selenium-captcha-solver-bypass)
-- [Solve and bypass Google reCAPTCHA, hCaptcha, Arkose FunCaptcha, Cloudflare Turnstile, and any captcha in Puppeteer with captcha solver.](https://solvecaptcha.com/captcha-solver/puppeteer-captcha-solver-bypass)
+- [Solve and bypass Google reCAPTCHA, Image CAPTCHA,  Cloudflare Challenge and any captcha in Selenium with captcha solver.](https://solvecaptcha.com/captcha-solver/selenium-captcha-solver-bypass)
+- [Solve and bypass Google reCAPTCHA, Arkose FunCaptcha, Cloudflare Turnstile, and any captcha in Puppeteer with captcha solver.](https://solvecaptcha.com/captcha-solver/puppeteer-captcha-solver-bypass)
 
 ## Get in touch
 

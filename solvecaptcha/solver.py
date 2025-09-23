@@ -101,36 +101,6 @@ class Solvecaptcha():
         result = self.solve(timeout=self.recaptcha_timeout, **params)
         return result
 
-    def hcaptcha(self, sitekey, url, **kwargs):
-        '''Wrapper for solving hcaptcha.
-
-        Parameters
-        __________
-        sitekey : str
-            Value of data-sitekey parameter you found on page.
-        url : str
-            Full URL of the page where you bypass the captcha.
-        invisible : num, optional
-            Use 1 for invisible version of hcaptcha. Currently it is a very rare case.
-            Default: 0.
-        data : str, optional
-            Custom data that is used in some implementations of hCaptcha, mostly with invisible=1. In most cases you see
-            it as rqdata inside network requests. Format: "data": "rqDataValue".
-        domain : str, optional
-            Domain used to load the captcha: hcaptcha.com or js.hcaptcha.com. Default: hcaptcha.com.
-        callback : str, optional
-            URL for pingback (callback) response that will be sent when captcha is solved. URL should be registered on
-            the server. More info here https://solvecaptcha.com/captcha-solver-api#manage_pingback.
-        proxy : dict, optional
-            {'type': 'HTTPS', 'uri': 'login:password@IP_address:PORT'}.
-        '''
-
-        result = self.solve(sitekey=sitekey,
-                            url=url,
-                            method='hcaptcha',
-                            **kwargs)
-        return result
-
     def turnstile(self, sitekey, url, **kwargs):
         '''Wrapper for solving Cloudflare Turnstile.
 
