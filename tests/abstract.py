@@ -39,7 +39,7 @@ class AbstractTest(unittest.TestCase):
 
         incomings = self.solver.api_client.incomings
         for_send.update({'key': 'API_KEY'})
-        for_send.update({'soft_id': 1000001})
+        for_send.update({'soft_id': self.solver.soft_id})
 
         files = for_send.pop('files', {})
         self.assertEqual(incomings, for_send)
